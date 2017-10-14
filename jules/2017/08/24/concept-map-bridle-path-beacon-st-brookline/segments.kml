@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>beacon-st-brookline-segments.kml</name>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin90">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>66ffff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin16">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin80">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>66ff00ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>9900ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1300">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin80">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1300</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin16">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>66ffff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin300">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin110">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin70">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin31">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin130">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin140">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin17">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>66ffff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin18">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>9900ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin150</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin170">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin700</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin17">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>66ffff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin18">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>990080ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin700">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin150">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>66ff00ff</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Segments: current conditions</name>
+		<open>1</open>
+		<Placemark>
+			<name>(Connector:) N. side (edge): St. Mary&apos;s St. - Carlton St. (mid): E. part</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.10697955910958,42.34625029911231,0 -71.107485997064,42.34611184263606,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: St. Mary&apos;s St. - Carlton St. (mid-cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin150</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.10745175653472,42.34604223861653,0 -71.10744365920682,42.34602472909337,0 -71.10778770933474,42.34594225688383,0 -71.10781422916521,42.34590073659116,0 -71.10783957999446,42.34590105676527,0 -71.10787317663639,42.34584763496262,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: St. Mary&apos;s St. - Carlton St. (mid): W. part</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.10787313751949,42.34584753072439,0 -71.10894128450224,42.34555511795674,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Connector:) N. side (edge): St. Mary&apos;s St. - Carlton St. (mid): W. part</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.10752224754435,42.34608359101475,0 -71.1090208481329,42.3456711966632,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Connector:) S. side (edge): St. Mary&apos;s St. - Carlton St. (mid)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.10890174620334,42.34543501913491,0 -71.10687452292326,42.34599196719591,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Carlton St. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.10891666878365,42.34561437254975,0 -71.10924668329501,42.34552764403659,0 -71.10925651309456,42.34552983103991,0 -71.10926913897814,42.34552945781461,0 -71.10928029922373,42.34552657351697,0 -71.10928999267914,42.3455222560202,0 -71.10929870586045,42.34551686540996,0 -71.10930547097571,42.34551040363052,0 -71.10931126178728,42.34550394641361,0 -71.10931704634324,42.34549677631466,0 -71.10933881161336,42.34546601288705,0 -71.10936066201863,42.34547330807176,0 -71.10938523076192,42.34543477879934,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Carlton St. - Hawes St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin90</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.10938554090507,42.34543482168204,0 -71.11046439779656,42.34513572736594,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Hawes St. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11044153590962,42.34517954117017,0 -71.1110707290989,42.34500643158189,0 -71.11108184137197,42.34501246565154,0 -71.11109380108671,42.34501686677355,0 -71.11110575855113,42.34501906018442,0 -71.1111201071686,42.34501992501244,0 -71.1111350533312,42.34501902225224,0 -71.11132317554505,42.34496545318144,0 -71.11133876882489,42.34495922548716,0 -71.1113501654078,42.34495344596156,0 -71.11136044697425,42.34494613527793,0 -71.11136822921216,42.34493859623833,0 -71.11137713809495,42.34492991207123,0 -71.11142661970935,42.34486994149868,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Hawes St. - Powell/Kent St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin90</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11145491283627,42.34486254822465,0 -71.11365876449173,42.34425634041774,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Powell/Kent St. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11366180331862,42.34426542910698,0 -71.11370117920508,42.34428072133565,0 -71.11456978684281,42.34403971927341,0 -71.11459082224695,42.34404587465105,0 -71.11460345566222,42.34402371732677,0 -71.11461905955241,42.34399255533452,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Powell/Kent St. - St. Paul St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin90</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11461855429066,42.3439926500421,0 -71.11648195526327,42.34348059860329,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: St. Paul St. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11648131368749,42.34348063182352,0 -71.11652019999151,42.34349171484045,0 -71.11655267823448,42.34349284965772,0 -71.11727572583642,42.34329575997641,0 -71.11731958034869,42.34332470996043,0 -71.11733491445054,42.34332213994175,0 -71.11735301261153,42.34331803189554,0 -71.11736760620778,42.34331444371398,0 -71.11738217328391,42.34330983566869,0 -71.11739395151395,42.34330317569334,0 -71.11740503005107,42.34329600617085,0 -71.11741471992546,42.34328627338904,0 -71.11742095000272,42.34327705026443,0 -71.11743034921874,42.34325592256399,0 -71.11745974026299,42.34326305193002,0 -71.11749237777842,42.34320183953551,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: St. Paul St. - Charles St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin90</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11749216382842,42.34320146065343,0 -71.11899183522712,42.34278770103668,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Charles St. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11896336875581,42.34284612828399,0 -71.11899567534428,42.3428501454873,0 -71.11929906844195,42.34276486724615,0 -71.11931407703396,42.3427575973714,0 -71.11932688113063,42.3427469722021,0 -71.1193374386052,42.34273578979874,0 -71.11934649682364,42.34272404828888,0 -71.11936121561033,42.34270237508278,0 -71.11938421670004,42.34271115193329,0 -71.1194144845901,42.34266848096707,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Charles St. - Pleasant St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin90</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.11941263266127,42.34266883957545,0 -71.12003358511951,42.34249247009163,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Pleasant St. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin60</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12003855652527,42.34254785720879,0 -71.12007200178813,42.342553479242,0 -71.12010666349028,42.3425431900485,0 -71.12011770336706,42.34253749436415,0 -71.12012439738675,42.34252984616193,0 -71.12012624423512,42.34251950581612,0 -71.12012297694618,42.34250770008347,0 -71.1202792488406,42.34246131277335,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Pleasant St. - Harvard St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12026845298571,42.3424410544305,0 -71.12035694357508,42.34241731572598,0 -71.12045708081438,42.34239040742329,0 -71.12052656261778,42.34237215693688,0 -71.12061325502782,42.34235573662533,0 -71.12066267336905,42.34234631626983,0 -71.12081194700006,42.34228101972445,0 -71.12079711287599,42.34221375491877,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Pleasant St. - Harvard St. (mid)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.1208589585913,42.34227595492088,0 -71.12084485888698,42.34220920046708,0 -71.12087010772723,42.34220614423197,0 -71.12091223741523,42.34220090620938,0 -71.120949354196,42.3421955641587,0 -71.12099164021912,42.3421891772145,0 -71.12103973554464,42.34218155322026,0 -71.12107826617843,42.34217501848196,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Harvard St. (cross): E. part</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12148018365608,42.3420401005025,0 -71.12107300968782,42.34216082842349,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Harvard St. (cross): W. part</name>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12215943979757,42.34187224618707,0 -71.12206515976176,42.34189704622031,0 -71.12199228138084,42.34188818574897,0 -71.12147971128236,42.34204022232249,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Harvard St. - Centre/Webster St. (mid): E. part</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12215914896147,42.34187228008494,0 -71.12237319266646,42.34181580615504,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Harvard St. - Centre/Webster St. (mid): W. part</name>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12237605212044,42.34182195857862,0 -71.12281260590402,42.34171258739218,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Detour:) N. side (edge): Pleasant St. - Harvard St. - Centre/Webster St. (mid, cross, mid)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12294232131674,42.34180289387567,0 -71.12258393663325,42.34189064351635,0 -71.12246143434952,42.34192138015489,0 -71.12231581448226,42.34195951755612,0 -71.12218008138328,42.34199663845337,0 -71.12203122829574,42.34203881106018,0 -71.12190306488489,42.34207464339612,0 -71.1217802268206,42.34211106227364,0 -71.1216352039022,42.3421536902319,0 -71.12115313754646,42.34228961256635,0 -71.12031644380708,42.34253603640241,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Detour:) S. side (edge): Pleasant St. - Harvard St. - Centre/Webster St. (mid, cross, mid)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.1228898816934,42.34155193648996,0 -71.12242692283588,42.34165954566727,0 -71.12228798970678,42.34169532514209,0 -71.12219122825908,42.34172401940603,0 -71.12204928990622,42.34177167627934,0 -71.12189588242762,42.34182552601641,0 -71.12178623045446,42.34186180398174,0 -71.12143626273939,42.34196558903798,0 -71.12100566456128,42.34209024822747,0 -71.1208256358519,42.34213604934712,0 -71.12067969043188,42.34217187059719,0 -71.12054524473268,42.34220512247903,0 -71.12019624422878,42.34229461233278,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Centre/Webster St. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12281244320084,42.34171261909091,0 -71.12292002174809,42.34168560430904,0 -71.1229563669838,42.34165406966007,0 -71.1235695428841,42.34151238212552,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Centre/Webster St. - Winchester St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin170</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12357944836724,42.34153357178825,0 -71.12390356566152,42.34146251965019,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Winchester St. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12443080862278,42.34133621214143,0 -71.12439509047556,42.34132227481375,0 -71.12398993679604,42.34141639396005,0 -71.12394179657883,42.34140358610004,0 -71.12390511262362,42.34146221027671,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Winchester St. - Summit Ave. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin170</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12443501261758,42.34134693495022,0 -71.12483027707842,42.34125133231593,0 -71.12514114802379,42.341171039733,0 -71.12538880052858,42.34110516265297,0 -71.12561334912219,42.34104426599568,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Summit Ave. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12579562779399,42.340953422174,0 -71.12577090332911,42.34096065372199,0 -71.12575444361654,42.34093150181801,0 -71.12573816341309,42.34093715644785,0 -71.12572393160485,42.34094330334437,0 -71.12570836885803,42.34095198285214,0 -71.12569758613648,42.34096113527907,0 -71.12568545067356,42.34097229598157,0 -71.12567536953334,42.34098445741426,0 -71.1256411832746,42.3410368233548,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Summit Ave. - Marion St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin170</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12581262888585,42.34098478707747,0 -71.12603755180814,42.34091654104611,0 -71.12617164604615,42.34087468095262,0 -71.12631086392557,42.34082716349181,0 -71.1264698547444,42.34076658756537,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Marion St. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12734103573973,42.34040413701257,0 -71.12731789603745,42.34041271712773,0 -71.12729302082916,42.34041271603475,0 -71.12656555306637,42.34068716301858,0 -71.12654909111257,42.34069518337576,0 -71.12653949758402,42.34070571508926,0 -71.12653443271586,42.34071747095771,0 -71.1265230948092,42.3407455078688,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Marion St. - Mason Path (mid)</name>
+			<styleUrl>#msn_ylw-pushpin170</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12735660740475,42.34042537645446,0 -71.12759826453639,42.34033877487838,0 -71.12784028515492,42.34025718927912,0 -71.1280862691208,42.34018090592214,0 -71.12832845235394,42.34010941116779,0 -71.12858506922711,42.34003942796881,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Mason Path (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.1287671555224,42.3399412083966,0 -71.12873818829905,42.33993038375068,0 -71.12872396920274,42.33993358507753,0 -71.12870916676918,42.33993766939416,0 -71.12869617345217,42.33994260922706,0 -71.1286814645339,42.33994974364678,0 -71.12866855777651,42.33995685243333,0 -71.12865394036874,42.3399670323445,0 -71.12864408026026,42.33997671206728,0 -71.12863604907976,42.33998765626878,0 -71.12861348324901,42.34003158440494,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Mason Path - Lancaster Ter. / Fairbanks St. (mid): E. part</name>
+			<styleUrl>#msn_ylw-pushpin11</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12878651743291,42.3399873352838,0 -71.12903609453332,42.33992833005501,0 -71.12928909310598,42.33987148084064,0 -71.12954337129055,42.33982176035515,0 -71.12971641078889,42.33979104540789,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Mason Path - Lancaster Ter. / Fairbanks St. (mid-divider)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin14</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12991774406939,42.33970290610615,0 -71.12990869904772,42.33969895026206,0 -71.12990246998166,42.33969830583137,0 -71.12985788366271,42.33970479668375,0 -71.12984578472701,42.33970684942442,0 -71.1298318703564,42.33970991828916,0 -71.12981838907653,42.33971399744605,0 -71.12980715307627,42.33971874438095,0 -71.12978425003365,42.33973031144102,0 -71.12976636361016,42.33974218546521,0 -71.12975301868754,42.33975300367254,0 -71.12971661979584,42.33979156127202,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Mason Path - Lancaster Ter. / Fairbanks St. (mid): W. part</name>
+			<styleUrl>#msn_ylw-pushpin11</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.12993352354478,42.33975630933871,0 -71.13019266145169,42.33971819675351,0 -71.13045658393796,42.33968451608666,0 -71.1307142825012,42.33965526941036,0 -71.13087893680809,42.33963957125065,0 -71.13102929861638,42.33962878256498,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Lancaster Ter. / Fairbanks St. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13106037371101,42.33962779551737,0 -71.13108829225929,42.33959931670154,0 -71.1311000997358,42.33958906782768,0 -71.13111230418414,42.33957929679979,0 -71.13112746336392,42.33956993357222,0 -71.13114518806991,42.33956233954628,0 -71.13116029135068,42.33955657763497,0 -71.1311777492411,42.3395524661829,0 -71.13119598553951,42.33955031551796,0 -71.1315680585555,42.33953009597039,0 -71.13159240472616,42.33954497475344,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Lancaster Ter. / Fairbanks St. - Summit Path (mid)</name>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13159562324947,42.3395929812366,0 -71.13186465531456,42.33958759809399,0 -71.13212528697932,42.33958294757772,0 -71.13238924138652,42.33958309320612,0 -71.1326028635671,42.33958544681031,0 -71.1328668718472,42.33958659153279,0 -71.13312109187359,42.33958781018185,0 -71.13329210013656,42.33958830161757,0 -71.13351008761443,42.33959130024597,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Summit Path (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13351028239906,42.33959103480193,0 -71.13358155396745,42.3395365496793,0 -71.13358855934983,42.33953295852889,0 -71.13359601288776,42.33953066267102,0 -71.13372565101159,42.33952768867287,0 -71.13373446043846,42.33952963161911,0 -71.13374101584455,42.33953419378381,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S. side: Summit Path - Westbourne Ter. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin180</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13368660277972,42.33958929968233,0 -71.13384677395752,42.33958220051414,0 -71.13399309853605,42.33957585693897,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(S. variant:) S. side: Westbourne Ter. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin9</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13399342545931,42.33957576445336,0 -71.13410315640938,42.33956767663454,0 -71.13418252899231,42.33956012264543,0 -71.13422017332444,42.33952774225016,0 -71.13441116686022,42.33950299914029,0 -71.13457252527307,42.33948005114134,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(N. variant:) S. side: Westbourne Ter. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin15</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13411646179081,42.33964682955596,0 -71.13410305009565,42.33956769855887,0 -71.13399294337326,42.33957577747428,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(N. variant:) N. side: Westbourne Ter. (cross)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin15</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13463481709621,42.33961674087418,0 -71.13457853660488,42.33962508468969,0 -71.13451976986141,42.33963416781472,0 -71.13446778156484,42.33960627193128,0 -71.13442293772691,42.33961261384491,0 -71.13425247889708,42.33963331429917,0 -71.13416395359624,42.33964222649439,0 -71.1341532964645,42.33957525789852,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(S. variant:) S. side: Westbourne Ter. - Washington St. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13457157216972,42.33948007012975,0 -71.13476050753522,42.33944756254861,0 -71.13492106021286,42.33941301098178,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(N. variant:) N. side: Westbourne Ter. - Washington St. (mid)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin12</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13463481613613,42.33961695153209,0 -71.13472821824602,42.33960246290175,0 -71.13482160275436,42.33958518453582,0 -71.13491981829739,42.33956514293232,0 -71.13501105914357,42.33954318763632,0 -71.13507463162084,42.33952557895275,0 -71.1351427636598,42.33950668997948,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Detour:) N. side (edge): Summit Path - Westbourne Ter. - Washington St. (mid, cross, mid)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin18</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13535190129276,42.33952603896643,0 -71.13525553998784,42.33955333941896,0 -71.13517215590934,42.33957599418706,0 -71.13508270972906,42.33959892611674,0 -71.13498879991985,42.33962179878786,0 -71.1348839539868,42.33964475962416,0 -71.13474628011333,42.33967508502448,0 -71.13461438916603,42.33970264367524,0 -71.13446348729663,42.33973487519644,0 -71.13433789646793,42.33975986295677,0 -71.13418968888084,42.33978179948897,0 -71.13407081026071,42.33979285320815,0 -71.13396840185874,42.33979932697746,0 -71.13386366521608,42.3398040728146,0 -71.13377924248157,42.33980767079383,0 -71.13365546731166,42.33980651650125,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Detour:) S. side (edge): Summit Path - Westbourne Ter. - Washington St. (mid, cross, mid)</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13489185971646,42.33929246223061,0 -71.13485092160053,42.33930193379672,0 -71.1347125636854,42.33933299148151,0 -71.13457491268224,42.33936334715635,0 -71.13443545939964,42.33938893213817,0 -71.13429814410006,42.33941098409877,0 -71.13414449303659,42.33942927595565,0 -71.13400826441075,42.33944143667654,0 -71.13385907276411,42.33945088208727,0 -71.13370720464846,42.33945812682582,0 -71.1336564817899,42.33945928972091,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(S. variant:) S. side: Washington St. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin19</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.1349204494456,42.33941309796692,0 -71.1350253840901,42.33938632604823,0 -71.1351096017391,42.33936345285148,0 -71.13513849415469,42.33936403673095,0 -71.13524977765559,42.33942788116361,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(S. variant:) N. side: Washington St. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin19</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13577869075365,42.33927069135427,0 -71.13550802432269,42.33935612839297,0 -71.1353353987039,42.33942805246245,0 -71.13522135498863,42.33936249166766,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(N. variant:) N. side: Washington St. (cross): E. part</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin16</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.1353353987039,42.33942805246245,0 -71.13529912473463,42.33945614690826,0 -71.13523860136272,42.33947638615776,0 -71.13519034060631,42.33949168570293,0 -71.13514262262416,42.33950644732657,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(N. variant:) N. side: Washington St. (cross): W. part</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-pushpin21</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13577869075365,42.33927069135427,0 -71.13550802432269,42.33935612839297,0 -71.1353353987039,42.33942805246245,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Washington St. - Winthrop Rd. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13577857404951,42.33927070250231,0 -71.13597348955378,42.33921583350882,0 -71.13624866791676,42.3391381542491,0 -71.13648755263637,42.3390734034524,0 -71.13677073170366,42.33899574177195,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Winthrop Rd. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin140</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13678091594122,42.33902115072114,0 -71.13680761546458,42.33901435877188,0 -71.13683170058027,42.339018044974,0 -71.13752018648468,42.33884205570389,0 -71.13754529548862,42.33880499074414,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Winthrop Rd. - Williston Rd. / Tappan St. (mid): E. part</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13754555704845,42.33880530662366,0 -71.13826297495774,42.33862839366019,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Winthrop Rd. - Williston Rd. / Tappan St. (mid-divider)</name>
+			<styleUrl>#msn_ylw-pushpin14</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13847170311099,42.33857684501419,0 -71.13843170235165,42.33862546096605,0 -71.13842222801716,42.33863585011656,0 -71.13840802891312,42.33864767844766,0 -71.13838966156995,42.33866029885113,0 -71.13837137412405,42.33866866931591,0 -71.13824785187734,42.33869950615756,0 -71.13823794569861,42.33869934644643,0 -71.13822974137479,42.33869595188093,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Winthrop Rd. - Williston Rd. / Tappan St. (mid): W. part</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13847253318525,42.33857687415895,0 -71.13883809111884,42.33848751119299,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Williston Rd. / Tappan St. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin140</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13944510895,42.3383399367145,0 -71.13942788585959,42.33836811523135,0 -71.13940351098915,42.33836152643187,0 -71.13938752239751,42.33838926745396,0 -71.13937907105188,42.3384003543763,0 -71.13936599736223,42.3384105034693,0 -71.13935298403044,42.33841689150357,0 -71.13933895885303,42.33842189118106,0 -71.13915249491298,42.33846626980591,0 -71.13913327882599,42.33848550513825,0 -71.13889322449907,42.33854533947616,0 -71.13885851667648,42.33853188320238,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Williston Rd. / Tappan St. - Corey Rd. / Dean Rd. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin120</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.13944578493808,42.33833943429345,0 -71.13977081110417,42.33826405300424,0 -71.14009517666327,42.33818578068866,0 -71.14042631061271,42.33811183860553,0 -71.14075998661438,42.33803764110737,0 -71.14109563561408,42.33796488209516,0 -71.14126441347972,42.33792741651938,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Corey Rd. / Dean Rd. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin140</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14127261057926,42.3379484772476,0 -71.14130260014356,42.33794185858576,0 -71.14132823890486,42.33794951357383,0 -71.14210414242957,42.3377866336496,0 -71.14210912334802,42.33779754510059,0 -71.14211712603772,42.33780391861629,0 -71.14212946191564,42.337808479591,0 -71.14214489226303,42.33781031260077,0 -71.1421657637508,42.33780820264703,0 -71.142239755692,42.33779329299332,0 -71.14226254393026,42.33778572256256,0 -71.14227909111753,42.33777730658853,0 -71.14229502066367,42.3377672620628,0 -71.1423090834087,42.33775248565458,0 -71.14233266052669,42.33772307018,0 -71.142355765875,42.33773207776578,0 -71.14238221364056,42.33769622139673,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Corey Rd. / Dean Rd. - Englewood Ave. (mid): E. part</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14238189671929,42.337696544248,0 -71.14344993391535,42.33748022902603,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Corey Rd. / Dean Rd. - Englewood Ave. (mid-divider)</name>
+			<styleUrl>#msn_ylw-pushpin14</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14366478188428,42.33743845251047,0 -71.14363700878664,42.33747523075312,0 -71.14362323385141,42.33748765602663,0 -71.14360563621611,42.33750007527223,0 -71.14358422113425,42.3375119207012,0 -71.14355747033724,42.33752149618932,0 -71.14343546321808,42.33754733397555,0 -71.14342404813711,42.33754619483089,0 -71.14341416665162,42.33754111040682,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Corey Rd. / Dean Rd. - Englewood Ave. (mid): W. part</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14366525684812,42.33743821126212,0 -71.14468945240532,42.3372276995085,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Englewood Ave. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin140</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14469912396878,42.33725108480737,0 -71.14474126879614,42.33724159326385,0 -71.14475919687806,42.33724728795089,0 -71.14518633493672,42.33716033830193,0 -71.1452015882025,42.3371698686077,0 -71.14522013432051,42.33717642258916,0 -71.14524513909561,42.33717880716059,0 -71.1452648047421,42.33717642371226,0 -71.14528417710791,42.33716986618505,0 -71.1453003387021,42.33715972355883,0 -71.14532380680859,42.33713225127384,0 -71.14534566001275,42.33713999969638,0 -71.14539003750625,42.33708149905733,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Englewood Ave. - Strathmore Rd. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin30</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14539079251878,42.33708178874566,0 -71.14679265298597,42.33677987016513,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Strathmore Rd. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin140</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.1467934298029,42.3367799560878,0 -71.14722449817585,42.33668633310907,0 -71.1472373891186,42.33671613627357,0 -71.14729606360203,42.33673474571832,0 -71.14742157414184,42.33670658323567,0 -71.1474452032151,42.33669838550956,0 -71.14746706074818,42.33668675803201,0 -71.14748188970428,42.33667421771186,0 -71.14749695005649,42.33665890356749,0 -71.14752052190509,42.33667072695326,0 -71.147540273849,42.33664569063136,0 -71.14757236830717,42.33660411573157,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Strathmore Rd. - Ayr Rd. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin30</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14757172805449,42.33660519103316,0 -71.14833591435668,42.3364322702794,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Connector, detour:) N. side (edge): Strathmore Rd. - Ayr Rd. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14727999961981,42.33680722465654,0 -71.14861589341201,42.33650431602263,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>(Connector, detour:) S. side (edge): Strathmore Rd. - Ayr Rd. (mid)</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14852004536108,42.33626534585826,0 -71.14722580807988,42.33655730429829,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>N. side: Ayr Rd. (cross)</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.14833520590163,42.33643234688478,0 -71.14869668474938,42.33635095601873,0 -71.14870128837683,42.33636129752297,0 -71.14873494595852,42.33637799145026,0 -71.14877510160814,42.33636835047321,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

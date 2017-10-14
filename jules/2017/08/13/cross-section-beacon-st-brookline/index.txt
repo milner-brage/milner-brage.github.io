@@ -1,0 +1,203 @@
+Cross-section: Beacon St. in Brookline---
+
+prepared by:
+    Jules Milner-Brage <http://milner-brage.com/jules>
+revision as of:
+    July 18 - Aug. 13, 2017;
+    (minor: Oct. 1 - 14, 2017)
+
+key:
+
+    all dimensions are in ft.;
+
+    re. paint-delimited space,
+        dimensions are from center to center of lines;
+
+    toward left (viewed in car direction) = earlier in listing,
+        toward right = later in listing;
+
+    '!' =
+        point of subtle sharing between walking/bicycling use
+        and car use (or walking use and bicycling use);
+    '?' =
+        undecided point in design
+
+parameters:
+
+    ([vehicle], [action(s)]---)
+    (inferred for 'current', maintained for 'POTENTIAL'---)
+
+    bicycle, travel + stop =
+        2.5 [wide] (x 6 [long]);
+
+    car, travel + park =
+        6.5 [wide] (x 17 [long]);
+
+    package delivery truck [#N4],
+            travel + park
+                (BUT non-conforming to stalls, re.:
+                     angle (< stall) [where angled]
+                       / length (> stall) [where parallel]) =
+        (8 [wide] x) 22.5 [long];
+
+    fire truck, travel =
+        10 [wide]
+
+
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+
+default form---
+
+    (which exists at locations other than those,
+    primarily at cross-street/-path intersections,
+    where one/both of the curbs bulb out-/in-ward---)
+
+
+current, "narrow side":
+
+  + [car travel:]
+        {10.5 = (2) + 6.5 + (2)}
+      + {12.5 = (2) + 6.5 + [!] (4)}
+            [(/ bicycling sharrow / (!) parked-car door)]
+  + [edge: parallel car park:]
+        (7 = (0.5) + 6.5)
+
+current (effective / potential), "narrow side":
+
+  + [car travel:]
+        {10.5 = (2) + 6.5 + (2)}
+      + {10.5 = (2) + 6.5 + (2)} [(/ bicycling sharrow)]
+  + [edge: parallel car park:]
+        (9 = (2.5) + 6.5)
+
+
+current, "wide side":
+
+  + [median: car-park meter (/ parked-car bumper):]
+        (... 3 [RAISED] = ... 2.5 + (0.5 [curb]))
+
+  + [median: head-in-angled car park
+                   + maneuver (/ (!) walking travel) (#N1):]
+        (32 =
+            {18 = (1.5) + 13 [painted line] + (3.5)} [park]
+          + {11.5 = (2) + [!] 6.5 + (0.5 + 2.5 [RUMBLE])} [maneuver]
+          + (1 [RUMBLE] + 1.5)
+        )
+  + [car travel:]
+        {10.5 = (2) + 6.5 + (2)}
+      + {11.5 = (2) + 6.5 + (3)}
+  + [edge: bicycling travel (/ (!) parked-car door):]
+        {5 = (1) + 2.5 + [!] (1.5)}
+  + [edge: parallel car park:]
+        (8 = (1.5) + 6.5)
+
+  + [edge: car-park meter / bicycling/walking stop:]
+        (5 ... [RAISED] = (0.5 [curb]) + 2.5 ...)
+
+POTENTIAL, "wide side":
+
+  + [median: bicycling/walking stop:]
+        (... [RAISED])
+
+  + [median: bicycling/walking travel
+             (change: EXPANDED, swapped left):]
+        {6.5 = (0.5) + 2.5 + (0.5) + 2.5 + (0.5)} [(CONTRA-car)]
+      + {6.5 = (0.5) + 2.5 + (0.5) + 2.5 + (0.5)} [(car-same)]
+
+  + [median: car-park meter
+                   (/ parked-car {bumper OR  door})
+               / bicycling/walking stop
+             (change: MODIFIED, shifted right):]
+        (3.5 = 2.5 + (0.5 + 0.5 [RAISED curb (#N2)]))
+
+  + [median: ... car park
+             (change: MODIFIED, shifted right):]
+        [BACK-in-angled (- maneuver) (#N1):]
+            (20.5 =
+                {18 = 17.5 + 0.5 [(?) RUMBLE]}
+              + (1 [(?) RUMBLE] + 1.5)
+            )
+    OR  [?] [PARALLEL + maneuver (#N3):]
+            (20.5 =
+                {7.5 = 6.5 + (1)} [park]
+              + {10.5 = (2) + 6.5 + (1.5 + 0.5 [(?) RUMBLE])} [maneuver]
+              + (1 [(?) RUMBLE] + 1.5)
+            )
+  + [car travel  (change: shifted right):]
+        {10.5 = (2) + 6.5 + (2)}
+      + {10.5 = (2) + 6.5 + (2)} [(/ bicycling sharrow)]
+  + [edge: parallel car park:]
+        (9 = (2.5) + 6.5)
+
+  + [edge: car-park meter / walking/bicycling stop:]
+        (... [RAISED])
+
+
+--------------------------------------------------------------------------
+
+
+[#N1:]
+
+    viewed perpendicular to curb (above);
+
+    viewed parallel to curb:
+        12 [each stall];
+    BUT each stall actually angled 45 deg. to curb:
+        {8.5 = (1) + 6.5 + (1)} [wide] x
+        {17 + ... (~ 3.5 = 1.5 [RUMBLE] + 2)} [long];
+
+    presuming bumper is NOT overhanging curb;
+    BUT may actually BE, e.g.:
+        1 [perpendicular] (= ~ 1.5 [angled])
+             to 1.5 [perpendicular] (= ~ 2 [angled]);
+
+    if switched to 9 wide (1.25 door buffer on each side =
+    net 2.5 between adjacent stalls), then core stall
+    perpendicular dimension grows = 18.38 ~ 18.5
+
+
+[#N2:]
+
+    perhaps segmented per car-parking stall and, where angled,
+    each segment rotated around one of its ends to match the angle
+    of `BACK-in-angled car park` (so that the other end of the
+    segment projects outward into `car park`)
+
+
+[#N3:]
+
+    perhaps a reduction (- 40%) in the number of median parking
+    stalls (due to their orientation in this option) would be deemed
+    necessary and acceptable along some Beacon St. segments
+
+    (i.e., shortly before/after a major cross-street intersection,
+    esp. where additionally cross-cut by other, smaller streets,
+    e.g.: Winchester St. to Harvard St., Charles St. to Harvard St.),
+
+    in order to reduce spending time/throughput of the left-hand
+    through-travel lane on parking maneuvering (compared to in the
+    other option: to perform back-in-angled parking directly from
+    that through-travel lane),
+
+    made possible by means of the dedicated parking-maneuvering lane
+    in this option (which there is space for, in the cross-section,
+    due to the parallel stall orientation here)
+
+
+[#N4:]
+
+    e.g.---
+
+    the USPS trucks:
+
+        frequently parked in the median of Beacon St. between Kent/
+        Powell St. and Pleasant St. during evenings and weekends,
+        which seem to be instances of the 22.5-ft.-long NACTO "DL-23"
+        ("package delivery truck") vehicle type---
+
+        would need to be parked at a 30-deg. angle to the curb
+        (which would result in their occupying ~ 1.4 marked stalls),
+        in order to fit into the same amount of cross-section space as
+        a 17-ft.-long vehicle parked at the stall-marked 45-deg. angle
+
