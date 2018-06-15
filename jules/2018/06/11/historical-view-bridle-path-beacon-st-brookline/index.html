@@ -29,13 +29,14 @@
         }
 
         pre.head  , pre.body  {
-            width:  144ch /* ! */;
             padding:  0 4ch;
+            width:  110ch /* ! */
+                    /* = 72ch * 1.5 + 2ch */;
         }
 
         div.lede  {
-            width:  152ch /* ! */
-                    /* = [text:] 144ch + 2 * [padding:] 4ch */;
+            width:  118ch /* ! */
+                    /* = [text:] 110ch + 2 * [padding:] 4ch */;
             color:  #FFFFFF;
             background-color: #000000;
         }
@@ -44,30 +45,21 @@
                 div.lede.multi  > div.vertical  > a /* ! */ ,
                 div.lede.multi  > div.vertical  > a > img /* ! */ ,
                 div.lede.multi  > div.horizontal  > a > img /* ! */ {
-            display:  block /* ! */;
+            display:  block /* ! ? */;
             width:  100%  /* ! */;
         }
         div.lede.multi  > div.horizontal  /* ! */ {
-            /***display:  table***/;
-            display:  flex  /* ? */;
-            align-items:  center  /* ? */;
+            display:  table /* ? */;
         }
         div.lede.multi  > div.horizontal  > a /* ! */ {
-            /***display:  table-cell***/;
-            /***vertical-align: middle***/;
-            display:  inline-block  /* ? */;
+            display:  table-cell  /* ? */;
+            vertical-align: middle  /* ? */;
         }
         div.lede  > div.caption {
             padding:  1ch;
             padding-left: 4ch;
         }
 
-        div.lede  + div.lede  /* ! ??? */ {
-            padding-top:  2ch;
-        }
-        div.lede:last-child /* ! ??? */ {
-            padding-bottom: 2ch;
-        }
         div.lede  + pre.head  /* ! ? */ {
             color:  #FFFFFF;
             background-color: #000000;
@@ -85,6 +77,7 @@
             div.lede  /* ! ? */ {
                 page-break-inside:  avoid;
             }
+
             pre.body  + pre.body  {
                 page-break-before:  always;
             }
@@ -144,10 +137,11 @@
     )
 
  -->
-<div class="lede multi">
+<div class="lede multi"
+     style="padding-bottom: 0.5%">
     <div class="horizontal"
-         style="padding: 0.5%; padding-bottom: 0">
-        <a   style="width: 55.75%"
+         style="padding: 0.25%; padding-bottom: 0">
+        <a   style="width: 55.25%; padding: 0.25%; padding-bottom: 0"
               href="http://www.digitalcommonwealth.org/search/commonwealth:5425kj44n">
             <img   src="1893.unknown.pleasant-st,north-side,outer-edge,ground-level,view-east.jpg"
                    alt="
@@ -160,7 +154,7 @@
                     courtesy of Public Library of Brookline, Brookline, MA.)
                 " />
         </a>
-        <a   style="width: 43.75%; padding-left: 0.5%"
+        <a   style="width: 43.25%; padding: 0.25%; padding-bottom: 0"
               href="http://cdm16001.contentdm.oclc.org/cdm/ref/collection/p15031coll16/id/6354">
             <img   src="1900.manning.harvard-st,north-side,outer-edge,elevated,view-east.jpg"
                    alt="
@@ -177,15 +171,15 @@
     <div class="caption">
         <small>
             Near Coolidge Corner (just east),
-                on north side, at outer edge, view east:
+                on north side, at outer edge, view east:<br />
+            &#xA0;&#xA0;&#xA0;&#xA0;
             <i>[left:]</i>
                 at Pleasant St., ground-level
                     (in 1893);
             <i>[right:]</i>
                 at Harvard St., elevated<!--
                     (likely atop new S.S. Pierce Building)-->
-                    (in approx. 1900).
-            <br />
+                    (in approx. 1900).<br />
             (By / courtesy of:
             <i>[left:]</i>
                 Unknown /
@@ -219,10 +213,12 @@
             *elevated*, view north;
 
  -->
-<div class="lede multi">
+<div class="lede multi"
+     style="padding-bottom: 0.5%">
     <div class="vertical"
-         style="padding: 1%; padding-bottom: 0.5%">
-        <a    href="http://www.loc.gov/item/2007661055/">
+         style="padding: 0.5%; padding-bottom: 0.25%">
+        <a   style="width: 99%; padding: 0.5%"
+              href="http://www.loc.gov/item/2007661055/">
             <img   src="1903.chickering.brandon-hall,south-side,median-bridle-way,ground-level,view-east.jpg"
                    alt="
                 At Brandon Hall
@@ -234,7 +230,7 @@
                     courtesy of Library of Congress, Washington, DC.)
                 " />
         </a>
-        <a   style="padding-top: 1%"
+        <a   style="width: 99%; padding: 0.5%; padding-bottom: 0.25%"
               href="http://www.loc.gov/item/2007661078/">
             <img   src="1903.chickering.summit-path,south-side,outer-edge,elevated,view-north.jpg"
                    alt="
@@ -251,14 +247,14 @@
     <div class="caption">
         <small>
             Beside Corey Hill, on south side
-                (in 1903):
+                (in 1903):<br />
+            &#xA0;&#xA0;&#xA0;&#xA0;
             <i>[top:]</i>
                 at Brandon Hall,
                     in median bridle way, ground-level, view east;
             <i>[bottom:]</i>
                 at Summit Path,
-                    at outer edge, elevated, view north.
-            <br />
+                    at outer edge, elevated, view north.<br />
             (By E. Chickering &amp; Co. /
                 courtesy of Library of Congress, Washington, DC.)
         </small>
@@ -302,10 +298,11 @@
     )
 
  -->
-<div class="lede multi">
+<div class="lede multi"
+     style="padding-bottom: 0.5%">
     <div class="horizontal"
-         style="padding: 1%; padding-bottom: 0.5%">
-        <a   style="width: 49.5%"
+         style="padding: 0.5%; padding-bottom: 0.25%">
+        <a   style="width: 48.5%; padding: 0.5%; padding-bottom: 0.25%"
               href="http://sova.si.edu/details/AAG.SRS?s=0&amp;n=10&amp;t=C&amp;q=#ref4775">
             <img   src="1909.sears.st-marys-st,north-side,carriage-way,ground-level,view-east.jpg"
                    alt="
@@ -318,7 +315,7 @@
                         Smithsonian Institution, Washington, DC.)
                 " />
         </a>
-        <a   style="width: 49.5%; padding-left: 1%"
+        <a   style="width: 48.5%; padding: 0.5%; padding-bottom: 0.25%"
               href="http://sova.si.edu/details/AAG.SRS?s=0&amp;n=10&amp;t=C&amp;q=#ref4771">
             <img   src="1909.sears.st-marys-st,north-side,median-rail-way,ground-level,view-east.jpg"
                    alt="
@@ -336,19 +333,16 @@
         <small>
             Near St. Mary's St. (just west),
                 on north side, ground-level, view east
-                (in 1909):
+                (in 1909):<br />
+            &#xA0;&#xA0;&#xA0;&#xA0;
             <i>[left:]</i>  in carriage way;
-            <i>[right:]</i> in median rail way.
-            <br />
+            <i>[right:]</i> in median rail way.<br />
             (By Thomas W. Sears /
                 courtesy of Archives of American Gardens,
                     Smithsonian Institution, Washington, DC.)
         </small>
     </div>
 </div>
-<pre class="head">
-
-</pre>
 <!--
     - - - - 
 
