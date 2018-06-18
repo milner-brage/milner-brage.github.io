@@ -14,12 +14,14 @@
             margin: 0;
             font-family:  monospace;
             font-size:  10pt  /* ? */;
-            color:  #000000 /* ? */;
-            background-color: #FFFFFF /* ? */;
+            -webkit-text-size-adjust: 100%;
+            -moz-text-size-adjust:  100%;
+            -ms-text-size-adjust: 100%;
+            -o-text-size-adjust:  100%;
+            text-size-adjust: 100%;
         }
         pre   {
             margin: 0;
-            padding:  0 4ch;
         }
         pre a {
             /***text-decoration-skip: spaces;***/
@@ -28,7 +30,15 @@
         *.mail-ref  *.label {
             display:  none;
         }
-
+    </style>
+    <style type="text/css">
+        body  {
+            color:  #000000 /* ? */;
+            background-color: #FFFFFF /* ? */;
+        }
+        pre   {
+            padding:  0 4ch;
+        }
         @media  screen  {
             pre.head:first-child  , pre.body:first-child  {
                 padding-top:  4ch;
