@@ -37,7 +37,19 @@
             minor corrections (*cover letter* + model);
 
         2018/05/19:
-            publish (screen + print)
+            publish (screen + print);
+
+        2018/{05/31 - 06/04}:
+            first add cross-section visual (unpublished);
+
+        2018/06/20:
+            present: Transportation Board;
+
+        2018/06/22:
+            add further-refined cross-section visual;
+
+        2018/06/27:
+            publish (w/ cross-section visual)
 
         ==>
 
@@ -45,6 +57,8 @@
              updated-cad-model-beacon-st-brookline"
         "/jules/2018/05/07/
              concept-bottom-line-bridle-path-beacon-st-brookline"
+        "/jules/2018/05/22/
+             remixed-cross-section-beacon-st-brookline"
     -->
 
     <link rel="author" href="/jules" />
@@ -70,6 +84,11 @@
         small {
             font-size: 66.67% /* = 6.667pt */;
         }
+        @media  print {
+            *.screen-only   {
+                display:  none;
+            }
+        }
     </style>
     <style type="text/css">
         body  {
@@ -89,6 +108,7 @@
             background-color: #000000;
         }
         div.lede  > a , div.lede  > a > img {
+            display:  block /* ! ? */;
             width:  inherit /* = 100% */;
         }
         div.lede  > div.caption {
@@ -110,22 +130,6 @@
             }
         }
     </style>
-    <style type="text/css">
-        div.lede  {
-            width:  86ch
-                    /* = ... + 3 * [padding:] 4ch */;
-        }
-        @media  screen  {
-            *.print-only  {
-                display:  none;
-            }
-        }
-        @media  print {
-            *.screen-only   {
-                display:  none;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -133,6 +137,7 @@
 <i>Date</i>:
     May 7, 2018
     (minor revision: May 14-16, 2018)
+    (added cross-section visual: June 20-22, 2018)
 
 <i>From</i>:
     <a href="/jules"><!--
@@ -158,14 +163,86 @@
 
 
 </pre>
-<div class="lede screen-only">
-    <a href="/jules/2018/05/03/updated-cad-model-beacon-st-brookline#view-22">
+<div id="updated-cad-model.2018-05-03"
+     class="lede screen-only">
+    <a href="/jules/2018/05/03/updated-cad-model-beacon-st-brookline/#view-22">
         <img  src="/jules/2018/05/03/updated-cad-model-beacon-st-brookline/view-22.svg"
               alt="
-            Plotting output for the CAD model:
+            Updated CAD model:
                 View 22: Powell Street / Kent Street (and MBTA Station)
             " />
     </a>
+</div>
+<pre class="head screen-only">
+
+</pre>
+<div id="remixed-cross-section.2018-05-22">
+<div class="lede screen-only"
+     style="
+        /* [...:] */
+            max-width:  5280px;
+        /* [class:] highlight-background: */
+            background-color: /***#9AC1D2***/ #BAEAFF;
+    ">
+    <a   href="/jules/2018/05/22/remixed-cross-section-beacon-st-brookline/#state-current">
+        <img  alt="Cross-section: (Current)"
+              src="/jules/2018/05/22/remixed-cross-section-beacon-st-brookline/state-current.png"
+            style="
+                /* [...:] */
+                    padding-top:  /* 50 / 5280 px = */ 0.95%;
+            " />
+    </a>
+</div>
+<div class="lede screen-only"
+     style="
+        /* [class:] layered: */
+            position: relative;
+            background-color: transparent /* ! */;
+        /* [...:] */
+            max-width:  5280px;
+    ">
+    <div style="
+            /* [class:] layered: below: */
+                position: absolute;
+                width:  100%;
+                height: 100%;
+            /* [class:] layered: below.dim-background: */
+                z-index:  -2;
+                background-color: /***#708D9A***/ #9AC1D2;
+        "></div>
+    <div style="
+            /* [class:] layered: below: */
+                position: absolute;
+                /*--*/  /***width:  100%;***/
+                height: 100%;
+            /* [class:] layered: below.highlight-background: */
+                z-index:  -1;
+                background-color: /***#9AC1D2***/ #BAEAFF;
+            /* [in-line:] */
+                margin-left:  /* 1356 / 5280 px = */ 25.68%;
+                width:  /* 84 / 5280 px = */ 1.59%;
+        "></div>
+    <div style="
+            /* [class:] layered: below: */
+                position: absolute;
+                /*--*/  /***width:  100%;***/
+                height: 100%;
+            /* [class:] layered: below.highlight-background: */
+                z-index:  -1;
+                background-color: /***#9AC1D2***/ #BAEAFF;
+            /* [in-line:] */
+                margin-left:  /* 2592 / 5280 px = */ 49.09%;
+                width:  /* 1608 / 5280 px = */ 30.45%;
+        "></div>
+    <a   href="/jules/2018/05/22/remixed-cross-section-beacon-st-brookline/#state-potential">
+        <img  alt="Remixed cross-section: + Separated bike/car facilities"
+              src="/jules/2018/05/22/remixed-cross-section-beacon-st-brookline/state-potential.png"
+            style="
+                /* [...:] */
+                    padding-top:  /* 50 / 5280 px = */ 0.95%;
+            " />
+    </a>
+</div>
 </div>
 <pre class="head screen-only">
 
@@ -176,14 +253,15 @@ Since we last spoke about the Beacon St. bridle path restoration
 concept at length at a Bicycle Advisory Committee meeting [<a href="#N1">#N1</a>]---
 
 We received, via Town DPW, a copy of Mass. DOT's CAD model for
-the last major renovation of the street (<a href="http://www.massdot.state.ma.us/highway/ProjectInfo/ProjectInfoProject.aspx?num=601183"><!--
+the last major renovation of the street (<!--
+     --><a href="http://www.massdot.state.ma.us/highway/ProjectInfo/ProjectInfoProject.aspx?num=601183"><!--
      -->Highway Project 601183</a>,
 which was planned 1995-2004 and executed 2005-2009).
 
 I have prepared an updated version of the model to incorporate a
-modern reincarnation of the bridle path for bicycling, per a
-version of the "shrink to fit" cross-section geometry that Peter
-Furth proposed and Jackson Lynch first refined.
+modern incarnation of the bridle path for bicycling (primarily),
+per a version of the "shrink to fit" cross-section transformation
+that Peter Furth proposed and Jackson Lynch first refined.
 
 And I have also extended the model to incorporate geometry for
 items that were missing (per field measurements bolstered by
@@ -198,15 +276,20 @@ For your consideration, as a result of this work:
     whole-street CAD modeling and ground-truthing study,
     plus proposed take-aways [<a href="#A0">#A0</a>]
 
-(2) (further below) explanation of the updated/extended CAD model:
+(2) (below and attached) explanation of the change modeled:
 
     [+] revisions made [<a href="#A1">#A1</a>]
 
     [+] revised cross-section dimensions [<a href="#A2">#A2</a>]
+            (and attached <!--
+                 --><a href="/jules/2018/05/22/remixed-cross-section-beacon-st-brookline"><!--
+                 -->visual</a><span class="screen-only"> [as per Streetmix]</span>)
 
     [+] details of a median bike path alignment to resolve [<a href="#A3">#A3</a>]
 
-(3) (attached) plotting output for the CAD model:
+(3) (attached) <!--
+         --><a href="/jules/2018/05/03/updated-cad-model-beacon-st-brookline"><!--
+         -->plotting output</a> from the model:
 
         a series of 22x34-in. sheets<span class="screen-only">---</span>
         (revision: May 3, 2018 [minor: May 7-16, 2018]<span class="screen-only">---</span>)<!--
@@ -226,7 +309,7 @@ drafting and analysis environment of AutoCAD.
 
 This has yielded both a higher-resolution and more-complete
 illustration of the median bike path concept and a demonstration
-of the likely degree of the potential path's geometric fit, over
+of the likely degree of the potential path's geometric fit, along
 the whole street, and of specific challenges to its implementation
 that are presented by existing conditions.
 
@@ -242,7 +325,8 @@ Sincerely,
 
 [<a id="N1" href="#N1">#N1</a>---]
 
-This past July - Oct. 2017, when I <a href="/jules/2018/bridle-path-beacon-st-brookline#concept.2017-09-26"><!--
+This past July - Oct. 2017, when I <!--
+     --><a href="/jules/2018/bridle-path-beacon-st-brookline/#concept.2017-09-26"><!--
      -->(re)introduced the concept</a> and we
 honed its framing, in order to facilitate closer study of potential
 design and construction strategies.
@@ -265,15 +349,18 @@ A 'bottom line' summary re. impacts identified through whole-street
 CAD modeling and ground-truthing study:
 
     '''
-    When you go searching for a way to improve cycling safety on
-    Beacon St., look for a protected two-way path---and also the
-    kernel of a linear park---(presently) hidden in plain sight:
-    the historical "bridle way" along the median.
+    When you search for a way to improve bicycling safety on Beacon St.,
+    look for a protected two-way path---and the kernel of a linear park---
+    (presently) hidden in plain sight: the historical "bridle way" along
+    the median.  Next to the row of shade trees on the wide side of the
+    train tracks, this intrinsic element of the Olmsteds' 1880's design
+    for the street, and built versions to the 1930's, awaits restoration.
 
-    Next to the row of shade trees on the wide side of the train
-    tracks, this intrinsic element of the Olmsteds' 1880's design
-    for the street, and built versions up to the 1930's, awaits
-    restoration.
+    And it seems that this improvement may be achievable with little car
+    parking loss, while concurrently rendering the street more humane
+    through shortened cross-walk distances, moderated car travel speeds,
+    and better access for people to shelter provided by the trees in
+    the median.
     '''
 
 (+) feasible common cross-section and scheme for achieving it:
@@ -350,7 +437,6 @@ CAD modeling and ground-truthing study:
 
 
 (+) bike turning movement / walking queueing space scheme---
-
     provide separate, dedicated space in the median for people walking
     and biking:
 
@@ -369,7 +455,6 @@ CAD modeling and ground-truthing study:
 
 
 (+) bike cross-over scheme at wide-side swap and subway-portal locations---
-
     for now, "walk your bike" portage through each of three small areas:
 
     [+] crossing Harvard St. and the train tracks in the west end of
@@ -423,7 +508,7 @@ CAD modeling and ground-truthing study:
 A few proposed take-aways:
 
 (+) It would be beneficial to raise awareness of the bridle-path
-    reincarnation concept in Town and to engage a broad array of
+    restoration concept in Town and to engage a broad array of
     stakeholders in becoming more familiar with the middle part of
     Beacon St. in a new light, so that there is an appreciation of
     this particular space's potential value (and benefit to the whole
