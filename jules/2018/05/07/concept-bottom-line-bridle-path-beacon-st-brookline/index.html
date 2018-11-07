@@ -49,7 +49,11 @@
             add further-refined cross-section visual;
 
         2018/06/27:
-            publish (w/ cross-section visual)
+            publish (w/ cross-section visual);
+
+        2018/11/07:
+            very minor cleanup (lede formatting for print) +
+            publish
 
         ==>
 
@@ -86,6 +90,11 @@
         }
         @media  print {
             *.screen-only   {
+                display:  none;
+            }
+        }
+        @media  screen  {
+            *.print-only  {
                 display:  none;
             }
         }
@@ -138,7 +147,6 @@
     May 7, 2018
     (minor revision: May 14-16, 2018)
     (added cross-section visual: June 20-22, 2018)
-
 <i>From</i>:
     <a href="/jules"><!--
      -->Jules Milner-Brage</a>
@@ -165,7 +173,7 @@
 </pre>
 <div id="updated-cad-model.2018-05-03"
      class="lede screen-only">
-    <a href="/jules/2018/05/03/updated-cad-model-beacon-st-brookline/#view-22">
+    <a   href="/jules/2018/05/03/updated-cad-model-beacon-st-brookline/#view-22">
         <img  src="/jules/2018/05/03/updated-cad-model-beacon-st-brookline/view-22.svg"
               alt="
             Updated CAD model:
@@ -244,11 +252,12 @@
     </a>
 </div>
 </div>
-<pre class="head screen-only">
-
-
+<pre class="head print-only">
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 </pre>
 <pre class="body">
+
+
 Since we last spoke about the Beacon St. bridle path restoration
 concept at length at a Bicycle Advisory Committee meeting [<a href="#N1">#N1</a>]---
 
