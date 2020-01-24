@@ -71,7 +71,11 @@
         2018/{10/{19 + 25 - 26 + 28 + 31} + 11/{06 - 07}}:
             apply 2018/10/09 revision + cleanup;
         2018/11/07 (early PM):
-            publish
+            publish;
+
+        2020/01/23:
+            fix Google Map embedding markup
+                (height was mistakenly relative to viewport)
 
         [?] ==>
 
@@ -159,9 +163,6 @@
         }
     </style>
     <style type="text/css">
-        div.lede  > iframe  {
-            border: 0;
-        }
         a {
             /***text-decoration-skip: spaces;***/
             text-decoration:  none;
@@ -330,10 +331,20 @@ Also published in: The Chronicle, Brookline, MA, Dec. 4, 1886.-->
 
 </pre>
 <div class="lede screen-only">
-    <iframe width="640" height="360"
-            style="width: 100%; height: 56.25%"
-              src="https://www.google.com/maps/d/embed?mid=1QK1bT1ZdiW93wtKxiDMvqKKyQfY"
-        ></iframe>
+    <div style="
+            position: relative;
+            width:  100%;
+            padding-bottom: /***56.25%***/  /*legacy:*/ 60.13%;
+            height: 0;
+        ">
+        <iframe   src="https://www.google.com/maps/d/embed?mid=1QK1bT1ZdiW93wtKxiDMvqKKyQfY"
+                width="640" height="360" frameborder="0"
+                style="
+                position: absolute;
+                left: 0;  top:  0;
+                width:  100%; height: 100%;
+            "></iframe>
+    </div>
 </div>
 <div class="lede print-only">
     <a   href="http://google.com/maps/d/viewer?mid=1QK1bT1ZdiW93wtKxiDMvqKKyQfY">
